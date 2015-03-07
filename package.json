@@ -1,0 +1,35 @@
+{
+  "name": "hook-writable-stream",
+  "version": "0.0.0",
+  "description": "Hooking into Node.js writable stream",
+  "homepage": "https://github.com/stevemao/hook-writable-stream",
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "repository": "stevemao/hook-writable-stream",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "capture",
+    "hook-writable-stream",
+    "intercept",
+    "mock",
+    "test",
+    "writable-stream"
+  ],
+  "dependencies": {
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.7",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+  }
+}
