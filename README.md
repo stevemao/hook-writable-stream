@@ -1,9 +1,9 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coverall-image]][coverall-url]
+#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
 > Hooking into Node.js writable stream
 
 
-Based on [this](https://gist.github.com/pguillory/729616) gist. Useful when you need to test Node writable streams such as stdout
+Based on [this](https://gist.github.com/pguillory/729616) gist. Useful when you need to test Node writable streams such as stdout.
 
 
 ## Install
@@ -92,5 +92,5 @@ MIT © [Steve Mao](https://github.com/stevemao)
 [travis-url]: https://travis-ci.org/stevemao/hook-writable-stream
 [daviddm-image]: https://david-dm.org/stevemao/hook-writable-stream.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/stevemao/hook-writable-stream
-[coverall-image]: https://coveralls.io/repos/stevemao/hook-writable-stream/badge.svg
-[coverall-url]: https://coveralls.io/r/stevemao/hook-writable-stream
+[coveralls-image]: https://coveralls.io/repos/stevemao/hook-writable-stream/badge.svg
+[coveralls-url]: https://coveralls.io/r/stevemao/hook-writable-stream
