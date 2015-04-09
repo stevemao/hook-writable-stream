@@ -1,6 +1,6 @@
 {
   "name": "hook-writable-stream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Hooking into Node.js writable stream",
   "homepage": "https://github.com/stevemao/hook-writable-stream",
   "author": {
