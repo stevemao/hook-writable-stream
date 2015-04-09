@@ -19,7 +19,9 @@
     "intercept",
     "mock",
     "test",
-    "writable-stream"
+    "writable-stream",
+    "stderr",
+    "stdout"
   ],
   "dependencies": {
     "through2": "^0.6.3"
