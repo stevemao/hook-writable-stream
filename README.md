@@ -21,7 +21,6 @@ $ npm install --save-dev hook-writable-stream
 var hookWritableStream = require('hook-writable-stream');
 var hook = hookWritableStream(process.stdout, false, function(string) {
   //=> string === 'hooked!\n'
-  done();
 });
 
 console.log('hooked!');
@@ -40,7 +39,7 @@ var hook = hookWritableStream(process.stdout, false);
 var stream = hook.stream;
 stream.pipe(through(function(chunk, enc, cb) {
   //=> chunk.toString() === 'hooked!\n'
-  cb();
+  cb(chunk);
 }));
 
 console.log('hooked!');
