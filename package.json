@@ -24,7 +24,7 @@
     "stdout"
   ],
   "dependencies": {
-    "through2": "^0.6.3"
+    "through2": "^2.0.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
